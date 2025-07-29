@@ -1,0 +1,136 @@
+{
+  "_meta": {
+    "file": "projects.json",
+    "purpose": "Project information and details",
+    "author": "Oğuzhan Berke Özdil",
+    "lastEdit": "27 January 2025"
+  },
+  "projects": [
+    {
+      "id": "vibronav",
+      "title": "VibroNav",
+      "subtitle": "Vibroacoustic Navigation System",
+      "shortDescription": "Audio/vibro‑tactile guidance platform for minimally invasive, needle‑based interventions",
+      "description": "A bi‑national OPUS‑LAP project (DFG/NCN, 2023–2025) creating an audio/vibro‑tactile guidance platform for minimally invasive, needle‑based interventions. By listening to high‑frequency vibrations on surgical instruments and processing them with advanced DSP and machine learning, VibroNav delivers real‑time feedback that helps clinicians place needles more accurately and safely.",
+      "longDescription": "VibroNav is an innovative research project that combines advanced signal processing, machine learning, and medical imaging to create a revolutionary guidance system for minimally invasive surgical procedures. The system captures high-frequency vibroacoustic signals from surgical instruments in real-time, processes them using sophisticated algorithms, and provides immediate tactile and auditory feedback to surgeons. This approach enables more precise needle placement, reduces procedural complications, and improves patient outcomes. The project involves close collaboration with clinical partners and integrates cutting-edge acoustic sensing technology with intuitive user interfaces designed specifically for surgical environments.",
+      "features": [
+        "High‑frequency acoustic sensing on interventional tools",
+        "Real‑time DSP and machine‑learning phase detection",
+        "Tactile/aural feedback for precise needle placement",
+        "Clinical workflow studies with interventional radiologists"
+      ],
+      "technologies": [
+        "Digital Signal Processing (DSP)",
+        "Machine Learning",
+        "Acoustic Sensing",
+        "Real-time Computing",
+        "Medical Device Integration",
+        "Haptic Feedback Systems"
+      ],
+      "funding": {
+        "agency": "DFG/NCN Joint Program",
+        "program": "OPUS‑LAP",
+        "period": "2023–2025",
+        "type": "International Collaboration"
+      },
+      "status": "active",
+      "startDate": "2023-01-01",
+      "endDate": "2025-12-31",
+      "partners": [
+        "Otto von Guericke University Magdeburg",
+        "AGH University of Science and Technology",
+        "Clinical Partners"
+      ],
+      "assets": {
+        "heroImage": "/assets/images/home_page/vibronav_project_slider.png",
+        "gallery": [
+          "/assets/projects/vibronav/vibronav_system_overview.png",
+          "/assets/projects/vibronav/vibronav_signal_processing.png",
+          "/assets/projects/vibronav/vibronav_clinical_setup.png"
+        ],
+        "logo": "/assets/images/projects/vibronav/logo.png"
+      },
+      "badges": [
+        "DFG / NCN Joint Project",
+        "In Progress"
+      ],
+      "links": {
+        "details": "/projects/vibronav",
+        "publications": "/publications?project=vibronav",
+        "external": "https://www.dfg.de"
+      },
+      "contact": {
+        "pi": "Prof. Dr. Michael Friebe",
+        "email": "michael.friebe@ovgu.de"
+      },
+      "gradient": "from-primary-500 to-primary-700",
+      "icon": "SignalIcon"
+    },
+    {
+      "id": "ultraclear",
+      "title": "UltraClear",
+      "subtitle": "Hybrid Imaging for Sentinel Lymph Node Detection",
+      "shortDescription": "Revolutionary handheld device combining ultrasound and gamma detection",
+      "description": "UltraClear develops a revolutionary handheld device that combines ultrasound anatomy visualization with gamma radiation detection. This dual-modality system enables real‑time anatomical and functional imaging for procedures like sentinel lymph node biopsy, providing surgeons with unprecedented intra‑operative guidance and improving patient outcomes through more precise, less invasive interventions.",
+      "longDescription": "UltraClear represents a paradigm shift in intraoperative imaging technology, seamlessly integrating two complementary imaging modalities into a single, ergonomic handheld device. By combining high-resolution ultrasound imaging with sensitive gamma radiation detection, UltraClear provides surgeons with real-time, multi-modal visualization capabilities that were previously impossible. The system is specifically designed for sentinel lymph node biopsy procedures, where precise localization is critical for patient outcomes. Advanced image fusion algorithms ensure that anatomical and functional information is presented in an intuitive, clinically relevant format, while the compact design maintains the flexibility and ease of use essential for surgical applications.",
+      "features": [
+        "Handheld device combining ultrasound and gamma detection",
+        "Real‑time image fusion for enhanced surgical guidance",
+        "Intuitive user interface optimized for clinical workflows",
+        "Enhanced precision in sentinel lymph node procedures"
+      ],
+      "technologies": [
+        "Ultrasound Imaging",
+        "Gamma Ray Detection",
+        "Image Fusion Algorithms",
+        "Real-time Processing",
+        "Medical Device Development",
+        "User Interface Design"
+      ],
+      "funding": {
+        "agency": "NCBR",
+        "program": "INNOGLOBO",
+        "period": "2022–2025",
+        "type": "Innovation Grant"
+      },
+      "status": "active",
+      "startDate": "2022-09-01",
+      "endDate": "2025-08-31",
+      "partners": [
+        "Otto von Guericke University Magdeburg",
+        "Industrial Partners",
+        "Clinical Validation Sites"
+      ],
+      "assets": {
+        "heroImage": "/assets/images/home_page/ultraclear_project_image.png",
+        "gallery": [
+          "/assets/projects/ultraclear/ultraclear_device.png",
+          "/assets/projects/ultraclear/ultraclear_interface.png",
+          "/assets/projects/ultraclear/ultraclear_clinical_use.png"
+        ],
+        "logo": "/assets/images/projects/ultraclear/logo.png"
+      },
+      "badges": [
+        "NCBR INNOGLOBO",
+        "Hybrid Imaging"
+      ],
+      "links": {
+        "details": "/projects/ultraclear",
+        "publications": "/publications?project=ultraclear",
+        "external": "https://www.ncbr.gov.pl"
+      },
+      "contact": {
+        "pi": "Prof. Dr. Michael Friebe",
+        "email": "michael.friebe@ovgu.de"
+      },
+      "gradient": "from-secondary-500 to-secondary-700",
+      "icon": "SpeakerWaveIcon"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-01-27",
+    "version": "1.0.0",
+    "author": "Oğuzhan Berke Özdil",
+    "description": "Centralized project data for VibroNav and UltraClear research initiatives"
+  }
+}

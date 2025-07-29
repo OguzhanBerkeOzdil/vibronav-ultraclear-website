@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibroNav & UltraClear Research</title>
+  <script>
+    // GitHub Pages SPA fallback
+    // This script takes the current pathname and redirects to the index.html
+    // with the pathname as a search parameter that the app can use to route correctly
+    const path = window.location.pathname.slice(1);
+    if (path) {
+      window.location.replace(
+        window.location.origin + '/?p=/' + path + window.location.search + window.location.hash
+      );
+    }
+  </script>
+</head>
+<body>
+  <div style="font-family: Arial, sans-serif; text-align: center; margin-top: 20vh;">
+    <h1>Redirecting...</h1>
+    <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+  </div>
+</body>
+</html>

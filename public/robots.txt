@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://oguzhanberkeozdil.github.io/vibronav-ultraclear-website/sitemap.xml
+
+# Disallow staging/development paths
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /test/
+
+# Allow important directories
+Allow: /assets/
+Allow: /blog/
+Allow: /projects/
+Allow: /publications/

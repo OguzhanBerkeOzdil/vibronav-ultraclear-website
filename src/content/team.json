@@ -1,0 +1,389 @@
+{
+  "_meta": {
+    "file": "team.json",
+    "purpose": "Team member information and profiles",
+    "author": "Oğuzhan Berke Özdil",
+    "lastEdit": "28 July 2025"
+  },
+  "team": [
+    {
+      "id": "michael-friebe",
+      "name": "Prof. Michael Friebe, PhD",
+      "role": "Project Manager / Professor",
+      "title": "Professor",
+      "department": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Michael Friebe has been involved in diagnostic imaging + image guided therapeutic products and services + other related Medical Technology ventures, as founder/innovator/CEO + investor. He currently is a Board Member of several R&D companies and an investment partner of a MedTec startup-fund. Dr. Friebe is a senior member of IEEE, affiliated professor at Computer Aided Medical Procedures (CAMP) at TUM, Adjunct full Professor at QUT (Brisbane), and a university Professor at AGH (Krakow)",
+      "expertise": [
+        "Medical imaging",
+        "MedTech entrepreneurship",
+        "Therapeutic devices",
+        "R&D leadership"
+      ],
+      "contact": {
+        "email": "friebe@agh.edu.pl",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Michael Friebe.jpg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav",
+        "ultraclear"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "PhD",
+          "field": "Medical Technology",
+          "institution": "Technical University",
+          "year": null
+        }
+      ],
+      "status": "active",
+      "joinDate": "2020-01-01"
+    },
+    {
+      "id": "katarzyna-heryan",
+      "name": "Katarzyna Heryan, MSc Eng.",
+      "role": "Project Team Leader / Researcher",
+      "title": "MSc Eng.",
+      "department": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Katarzyna Heryan (Bugajska) currently works at the Department of Measurement and Electronics, AGH University of Science and Technology in Kraków. Katarzyna does research in Medical Image Processing and Analysis, Neuroeconomics, Data Mining and Software Engineering. Their current project is 'System for preoperative planning and intraoperative support for partial nephrectomy.",
+      "expertise": [
+        "Medical image analysis",
+        "Data mining",
+        "Software engineering",
+        "Neuroeconomics"
+      ],
+      "contact": {
+        "email": "heryan@agh.edu.pl",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Katarzyna Heryan.jpg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "MSc Eng.",
+          "field": "Electronics",
+          "institution": "AGH University of Science and Technology",
+          "year": null
+        }
+      ],
+      "status": "active",
+      "joinDate": "2021-01-01"
+    },
+    {
+      "id": "dominik-rzepka",
+      "name": "Dominik Rzepka, PhD",
+      "role": "Senior Machine Learning Engineer",
+      "title": "PhD",
+      "department": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Dominik Rzepka is a senior machine learning engineer and researcher working for both academia and industry. He received his PhD from AGH University of Science and Technology in Cracow researching digital signal processing methods for event-based sampling. His experience includes developing algorithms of data processing for low power embedded systems, wiress communication, automated visual industrial inspection and medical diagnostic systems. In the Vibronav Project he is responsible for supervising DSP and machine learning works, as well as for the development of a signal acquisition system.",
+      "expertise": [
+        "DSP",
+        "Machine learning",
+        "Embedded systems",
+        "Computer vision"
+      ],
+      "contact": {
+        "email": "drzepka@agh.edu.pl",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Dominik Rzepka.jpg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "PhD",
+          "field": "Digital Signal Processing",
+          "institution": "AGH University of Science and Technology",
+          "year": null
+        }
+      ],
+      "status": "active",
+      "joinDate": "2020-06-01"
+    },
+    {
+      "id": "katharina-steeg",
+      "name": "Katharina Steeg, PhD student",
+      "role": "Clinical Expert",
+      "title": "PhD student",
+      "department": "Diagnostic and Interventional Radiology",
+      "institution": "University Hospital Giessen",
+      "bio": "Katharina Steeg, completed her Master's focusing on Biomedicine and is now pursuing her PhD in Diagnostic and Interventional Radiology at the University Hospital Giessen. As a Clinical Expert for the Vibronav Project, she tests and refines our prototype, ensuring it meets the highest standards for usability and clinical effectiveness. Additionally, she specializes in analyzing audio signals and contributes significantly to the machine learning aspects of our project.",
+      "expertise": [
+        "Clinical validation",
+        "Radiology",
+        "Signal analysis",
+        "Machine learning"
+      ],
+      "contact": {
+        "email": "Katharina.Steeg@radiol.med.uni-giessen.de",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Katharina Steeg.jpeg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "Master's",
+          "field": "Biomedicine",
+          "institution": "University",
+          "year": null
+        },
+        {
+          "degree": "PhD (in progress)",
+          "field": "Diagnostic and Interventional Radiology",
+          "institution": "University Hospital Giessen",
+          "year": null
+        }
+      ],
+      "status": "active",
+      "joinDate": "2022-01-01"
+    },
+    {
+      "id": "oguzhan-berke-ozdil",
+      "name": "Oğuzhan Berke Özdil",
+      "role": "Software Engineer",
+      "title": "BSc Computer Science",
+      "department": "Computer Science",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Oğuzhan Berke Özdil is a Software Engineer with a BSc in Computer Science from AGH University and is currently pursuing an MSc focused on Artificial Intelligence and Data Analytics. He delivers full‑stack web solutions, automation tools, and research software. Within the HealthTech Innovation Lab projects he develops web platforms, programs robotic/embedded control modules, and designs algorithms to support experiments and data workflows. He is expanding his work in AI‑driven signal and imaging analysis, backed by a strong background in reverse engineering and practical problem solving.",
+      "expertise": [
+        "JavaScript / TypeScript",
+        "Python",
+        "C#",
+        "Automation & scripting",
+        "React & Vite",
+        "Reverse engineering",
+        "Algorithm design",
+        "AI/ML",
+        "Data analysis"
+      ],
+      "contact": {
+        "email": "ozdiloguzhanberke@gmail.com",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/oguzhanberkeozdil/",
+        "github": "https://github.com/oguzhanberkeozdil",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/OguzhanBerkeOzdil.png",
+        "cv": null
+      },
+      "projects": [
+        "vibronav",
+        "ultraclear"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "BSc (in progress)",
+          "field": "Computer Science",
+          "institution": "AGH University of Science and Technology",
+          "year": null
+        }
+      ],
+      "status": "active",
+      "joinDate": "2023-01-01"
+    },
+    {
+      "id": "hamza-oran",
+      "name": "Hamza Oran",
+      "role": "Intern • Python Developer / BSc Electrical & Electronics Engineer",
+      "title": "BSc",
+      "department": "Electrical & Electronics Engineering",
+      "institution": "University",
+      "bio": "Hamza Oran is a graduate of Electrical and Electronics Engineering with a BSc. Throughout his education, he specialized in PLC (Programmable Logic Controller) systems and integrated circuit design. Currently, he is honing his skills in image processing and machine learning. As an intern on the Vibronav project, he is involved in Python development tasks and contributes to the production of phantoms used in experiments.",
+      "expertise": [
+        "Python",
+        "PLC systems",
+        "IC design",
+        "Image processing",
+        "ML (learning)"
+      ],
+      "contact": {
+        "email": "oran@agh.edu.pl",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Hamza Oran.jpg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [
+        {
+          "degree": "BSc",
+          "field": "Electrical & Electronics Engineering",
+          "institution": "University",
+          "year": null
+        }
+      ],
+      "status": "intern",
+      "joinDate": "2024-01-01"
+    },
+    {
+      "id": "witold-serwatka",
+      "name": "Witold Serwatka",
+      "role": "ML Engineer",
+      "title": "Engineer",
+      "department": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Witold Serwatka is an AI Engineer and Deep Learning Enthusiast with experience in Software Development and Cloud Services. He has developed automation tools in Python, CI/CD pipelines in Jenkins, and AI models in scikit-learn and PyTorch. Witold is also active in the research domain, publishing papers related to his work on the intersection of AI and medicine.",
+      "expertise": [
+        "AI/ML",
+        "Python",
+        "PyTorch",
+        "CI/CD",
+        "Cloud services"
+      ],
+      "contact": {
+        "email": "#",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": "/assets/images/team_page/Witold Serwatka.jpg",
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [],
+      "status": "active",
+      "joinDate": "2023-06-01"
+    },
+    {
+      "id": "juliusz-stefanski",
+      "name": "Juliusz Stefański",
+      "role": "Signal Processing Supervisor",
+      "title": "Supervisor",
+      "department": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "bio": "Signal processing expert supervising the technical aspects of audio and vibroacoustic signal analysis in the VibroNav project. Responsible for algorithmic development and validation of signal processing methodologies.",
+      "expertise": [
+        "Signal processing",
+        "Project supervision",
+        "DSP algorithms"
+      ],
+      "contact": {
+        "email": "#",
+        "phone": null,
+        "office": null
+      },
+      "links": {
+        "linkedin": "#",
+        "researchgate": null,
+        "orcid": null,
+        "website": null
+      },
+      "assets": {
+        "photo": null,
+        "cv": null
+      },
+      "projects": [
+        "vibronav"
+      ],
+      "publications": [],
+      "education": [],
+      "status": "active",
+      "joinDate": "2020-01-01"
+    }
+  ],
+  "departments": [
+    {
+      "id": "measurement-electronics",
+      "name": "Department of Measurement and Electronics",
+      "institution": "AGH University of Science and Technology",
+      "description": "Research department focused on measurement systems, electronics, and signal processing applications in medical technology."
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science Department",
+      "institution": "AGH University of Science and Technology",
+      "description": "Department offering undergraduate and graduate programs in computer science and software engineering."
+    },
+    {
+      "id": "radiology",
+      "name": "Diagnostic and Interventional Radiology",
+      "institution": "University Hospital Giessen",
+      "description": "Clinical department specializing in medical imaging and interventional procedures."
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2025-01-27",
+    "version": "1.0.0",
+    "author": "Oğuzhan Berke Özdil",
+    "description": "Centralized team data for VibroNav and UltraClear research teams"
+  }
+}

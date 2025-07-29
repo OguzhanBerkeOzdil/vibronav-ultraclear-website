@@ -1,0 +1,394 @@
+# Repository Audit Report
+
+**Generated:** 29.07.2025 14:25:54
+**Author:** Oğuzhan Berke Özdil
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Total Files | 209 |
+| Source Files | 76 |
+| Test Files | 0 |
+| Total Size | 41.83 MB |
+| Total Issues | 353 |
+| High Severity | 0 |
+| Medium Severity | 8 |
+| Low Severity | 345 |
+
+## Issues Found
+
+### Medium Severity (8)
+
+- Large asset (9.36 MB): public\assets\images\home_page\about_section.png
+- 'any' type used: src\components\contact\ContactForm.tsx
+- 'any' type used: src\components\contact\ContactGrid.tsx
+- 'any' type used: src\components\Footer.tsx
+- 'any' type used: src\components\opportunities\FAQAccordion.tsx
+- 'any' type used: src\components\opportunities\TeachingSection.tsx
+- 'any' type used: src\data\team.ts
+- 'any' type used: src\pages\Team.tsx
+
+### Low Severity (345)
+
+- Missing standardized header: postcss.config.js
+- Long line (208 chars) at line 53: src\App.tsx
+- Long line (274 chars) at line 55: src\App.tsx
+- Long line (124 chars) at line 63: src\App.tsx
+- Long line (241 chars) at line 64: src\App.tsx
+- Long line (174 chars) at line 72: src\App.tsx
+- Long line (134 chars) at line 140: src\App.tsx
+- Hardcoded URL found: https://schema.org in src\App.tsx
+- Hardcoded URL found: https://www.agh.edu.pl/ in src\App.tsx
+- Hardcoded URL found: https://github.com/healthtech-innovation-agh in src\App.tsx
+- Long line (142 chars) at line 28: src\components\AboutUs.tsx
+- Long line (147 chars) at line 29: src\components\AboutUs.tsx
+- Long line (139 chars) at line 30: src\components\AboutUs.tsx
+- Long line (132 chars) at line 31: src\components\AboutUs.tsx
+- Long line (150 chars) at line 40: src\components\AboutUs.tsx
+- Long line (151 chars) at line 41: src\components\AboutUs.tsx
+- Long line (164 chars) at line 53: src\components\AboutUs.tsx
+- Long line (307 chars) at line 56: src\components\AboutUs.tsx
+- Long line (371 chars) at line 59: src\components\AboutUs.tsx
+- Long line (208 chars) at line 90: src\components\AboutUs.tsx
+- Long line (202 chars) at line 98: src\components\AboutUs.tsx
+- Long line (137 chars) at line 120: src\components\AboutUs.tsx
+- Long line (206 chars) at line 124: src\components\AboutUs.tsx
+- Long line (222 chars) at line 127: src\components\AboutUs.tsx
+- Long line (155 chars) at line 134: src\components\AboutUs.tsx
+- Long line (156 chars) at line 135: src\components\AboutUs.tsx
+- Long line (135 chars) at line 93: src\components\blog\BlogIndex.tsx
+- Long line (141 chars) at line 98: src\components\blog\BlogIndex.tsx
+- Long line (139 chars) at line 103: src\components\blog\BlogIndex.tsx
+- Long line (140 chars) at line 136: src\components\blog\BlogIndex.tsx
+- Long line (227 chars) at line 145: src\components\blog\BlogIndex.tsx
+- Long line (125 chars) at line 11: src\components\blog\BlogPost.tsx
+- Long line (142 chars) at line 44: src\components\blog\BlogPost.tsx
+- Long line (123 chars) at line 72: src\components\blog\BlogPost.tsx
+- Long line (129 chars) at line 130: src\components\blog\BlogPost.tsx
+- Long line (687 chars) at line 171: src\components\blog\BlogPost.tsx
+- Long line (165 chars) at line 207: src\components\blog\BlogPost.tsx
+- Long line (524 chars) at line 211: src\components\blog\BlogPost.tsx
+- Long line (165 chars) at line 218: src\components\blog\BlogPost.tsx
+- Long line (531 chars) at line 222: src\components\blog\BlogPost.tsx
+- Long line (165 chars) at line 229: src\components\blog\BlogPost.tsx
+- Long line (319 chars) at line 233: src\components\blog\BlogPost.tsx
+- Long line (167 chars) at line 238: src\components\blog\BlogPost.tsx
+- Long line (195 chars) at line 242: src\components\blog\BlogPost.tsx
+- Long line (174 chars) at line 256: src\components\blog\BlogPost.tsx
+- Long line (146 chars) at line 263: src\components\blog\BlogPost.tsx
+- Long line (188 chars) at line 273: src\components\blog\BlogPost.tsx
+- Long line (146 chars) at line 277: src\components\blog\BlogPost.tsx
+- Hardcoded URL found: https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`, in src\components\blog\BlogPost.tsx
+- Hardcoded URL found: https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`, in src\components\blog\BlogPost.tsx
+- Hardcoded URL found: https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, in src\components\blog\BlogPost.tsx
+- Long line (192 chars) at line 82: src\components\blog\Pagination.tsx
+- Long line (215 chars) at line 102: src\components\blog\Pagination.tsx
+- Long line (192 chars) at line 121: src\components\blog\Pagination.tsx
+- Long line (149 chars) at line 39: src\components\blog\PostCard.tsx
+- Long line (133 chars) at line 72: src\components\blog\PostCard.tsx
+- Long line (184 chars) at line 105: src\components\blog\PostCard.tsx
+- Long line (202 chars) at line 33: src\components\blog\Sidebar\CategoriesList.tsx
+- Long line (141 chars) at line 52: src\components\blog\Sidebar\RecentPosts.tsx
+- Long line (143 chars) at line 30: src\components\blog\Sidebar\SearchBox.tsx
+- Long line (219 chars) at line 60: src\components\blog\Sidebar\TagCloud.tsx
+- Long line (131 chars) at line 80: src\components\BrandLogosAnimated.tsx
+- Long line (147 chars) at line 89: src\components\BrandLogosAnimated.tsx
+- Long line (148 chars) at line 90: src\components\BrandLogosAnimated.tsx
+- Long line (212 chars) at line 111: src\components\BrandLogosAnimated.tsx
+- Long line (212 chars) at line 131: src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://www.med.ovgu.de/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://inka-md.de/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://www.uni-stuttgart.de/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://medsun.pl/en/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://www.gbn.de/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://www.agh.edu.pl/ in src\components\BrandLogosAnimated.tsx
+- Hardcoded URL found: https://sites.google.com/surag-medical.com/packagedetailsrapp/home in src\components\BrandLogosAnimated.tsx
+- Long line (255 chars) at line 92: src\components\contact\ContactCard.tsx
+- Long line (255 chars) at line 104: src\components\contact\ContactCard.tsx
+- Long line (225 chars) at line 124: src\components\contact\ContactCard.tsx
+- Long line (235 chars) at line 138: src\components\contact\ContactCard.tsx
+- Long line (282 chars) at line 154: src\components\contact\ContactCard.tsx
+- Long line (161 chars) at line 122: src\components\contact\ContactForm.tsx
+- Long line (161 chars) at line 146: src\components\contact\ContactForm.tsx
+- Long line (257 chars) at line 170: src\components\contact\ContactForm.tsx
+- Long line (275 chars) at line 186: src\components\contact\ContactForm.tsx
+- Long line (146 chars) at line 194: src\components\contact\ContactForm.tsx
+- Long line (171 chars) at line 213: src\components\contact\ContactForm.tsx
+- Long line (405 chars) at line 232: src\components\contact\ContactForm.tsx
+- Long line (124 chars) at line 80: src\components\contact\ContactGrid.tsx
+- Hardcoded URL found: https://www.linkedin.com/in/michaelfriebe in src\components\contact\ContactGrid.tsx
+- Hardcoded URL found: https://www.fom.de/ in src\components\contact\ContactGrid.tsx
+- Hardcoded URL found: https://surag-medical.com/ in src\components\contact\ContactGrid.tsx
+- Long line (311 chars) at line 17: src\components\contact\GoogleMapEmbed.tsx
+- Hardcoded URL found: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.8947548!2d19.913317516!3d50.066227079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b1dd0d8b5a7%3A0x9ab7cb0b7db7c96!2sCzarnowiejska%2036%2C%2030-054%20Krak%C3%B3w%2C%20Poland!5e0!3m2!1sen!2sus!4v1642525200000!5m2!1sen!2sus in src\components\contact\GoogleMapEmbed.tsx
+- Long line (222 chars) at line 55: src\components\FeatureCards.tsx
+- Long line (207 chars) at line 64: src\components\FeatureCards.tsx
+- Long line (202 chars) at line 73: src\components\FeatureCards.tsx
+- Long line (195 chars) at line 82: src\components\FeatureCards.tsx
+- Long line (147 chars) at line 96: src\components\FeatureCards.tsx
+- Long line (151 chars) at line 97: src\components\FeatureCards.tsx
+- Long line (124 chars) at line 107: src\components\FeatureCards.tsx
+- Long line (178 chars) at line 124: src\components\FeatureCards.tsx
+- Long line (132 chars) at line 134: src\components\FeatureCards.tsx
+- Long line (133 chars) at line 161: src\components\FeatureCards.tsx
+- Long line (193 chars) at line 170: src\components\FeatureCards.tsx
+- Long line (172 chars) at line 27: src\components\Footer.tsx
+- Long line (121 chars) at line 63: src\components\Footer.tsx
+- Long line (123 chars) at line 68: src\components\Footer.tsx
+- Long line (150 chars) at line 94: src\components\Footer.tsx
+- Long line (533 chars) at line 97: src\components\Footer.tsx
+- Long line (140 chars) at line 100: src\components\Footer.tsx
+- Long line (748 chars) at line 103: src\components\Footer.tsx
+- Hardcoded URL found: https://www.linkedin.com/in/oguzhanberkeozdil/ in src\components\Footer.tsx
+- Hardcoded URL found: https://github.com/oguzhanberkeozdil in src\components\Footer.tsx
+- Long line (123 chars) at line 36: src\components\HeaderNavbar.tsx
+- Long line (123 chars) at line 73: src\components\HeaderNavbar.tsx
+- Long line (128 chars) at line 80: src\components\HeaderNavbar.tsx
+- Long line (282 chars) at line 84: src\components\HeaderNavbar.tsx
+- Long line (170 chars) at line 90: src\components\HeaderNavbar.tsx
+- Long line (181 chars) at line 138: src\components\HeaderNavbar.tsx
+- Long line (140 chars) at line 203: src\components\HeaderNavbar.tsx
+- Long line (199 chars) at line 79: src\components\HeroSlider.tsx
+- Long line (136 chars) at line 177: src\components\HeroSlider.tsx
+- Long line (165 chars) at line 188: src\components\HeroSlider.tsx
+- Long line (144 chars) at line 191: src\components\HeroSlider.tsx
+- Long line (140 chars) at line 194: src\components\HeroSlider.tsx
+- Long line (132 chars) at line 204: src\components\HeroSlider.tsx
+- Long line (158 chars) at line 208: src\components\HeroSlider.tsx
+- Long line (327 chars) at line 225: src\components\HeroSlider.tsx
+- Long line (329 chars) at line 235: src\components\HeroSlider.tsx
+- Long line (150 chars) at line 31: src\components\NewsSection.tsx
+- Long line (153 chars) at line 32: src\components\NewsSection.tsx
+- Long line (133 chars) at line 42: src\components\NewsSection.tsx
+- Long line (179 chars) at line 56: src\components\NewsSection.tsx
+- Long line (196 chars) at line 74: src\components\NewsSection.tsx
+- Long line (169 chars) at line 77: src\components\NewsSection.tsx
+- Long line (144 chars) at line 98: src\components\NewsSection.tsx
+- Long line (149 chars) at line 110: src\components\NewsSection.tsx
+- Long line (127 chars) at line 114: src\components\NewsSection.tsx
+- Long line (190 chars) at line 119: src\components\NewsSection.tsx
+- Long line (231 chars) at line 18: src\components\opportunities\FAQAccordion.tsx
+- Long line (260 chars) at line 22: src\components\opportunities\FAQAccordion.tsx
+- Long line (214 chars) at line 26: src\components\opportunities\FAQAccordion.tsx
+- Long line (241 chars) at line 30: src\components\opportunities\FAQAccordion.tsx
+- Long line (249 chars) at line 34: src\components\opportunities\FAQAccordion.tsx
+- Long line (177 chars) at line 55: src\components\opportunities\FAQAccordion.tsx
+- Long line (433 chars) at line 31: src\components\opportunities\MscOpportunitiesSection.tsx
+- Long line (368 chars) at line 36: src\components\opportunities\TeachingSection.tsx
+- Long line (286 chars) at line 56: src\components\opportunities\TeachingSection.tsx
+- Long line (171 chars) at line 88: src\components\opportunities\TeachingSection.tsx
+- Long line (126 chars) at line 135: src\components\opportunities\TeachingSection.tsx
+- Long line (122 chars) at line 56: src\components\PageTitle.tsx
+- Long line (194 chars) at line 129: src\components\PageTitle.tsx
+- Hardcoded URL found: http://www.w3.org/2000/svg in src\components\PageTitle.tsx
+- Long line (123 chars) at line 53: src\components\PolicyPageLayout.tsx
+- Long line (150 chars) at line 83: src\components\ProjectCards.tsx
+- Long line (149 chars) at line 84: src\components\ProjectCards.tsx
+- Long line (128 chars) at line 94: src\components\ProjectCards.tsx
+- Long line (179 chars) at line 112: src\components\ProjectCards.tsx
+- Long line (125 chars) at line 123: src\components\ProjectCards.tsx
+- Long line (198 chars) at line 145: src\components\ProjectCards.tsx
+- Long line (134 chars) at line 161: src\components\ProjectCards.tsx
+- Long line (128 chars) at line 207: src\components\ProjectCards.tsx
+- Long line (192 chars) at line 212: src\components\ProjectCards.tsx
+- Long line (126 chars) at line 34: src\components\publications\PublicationCard.tsx
+- Long line (201 chars) at line 95: src\components\publications\PublicationCard.tsx
+- Long line (205 chars) at line 113: src\components\publications\PublicationCard.tsx
+- Long line (211 chars) at line 134: src\components\publications\PublicationCard.tsx
+- Hardcoded URL found: https://doi.org/${publication.doi}`} in src\components\publications\PublicationCard.tsx
+- Long line (123 chars) at line 98: src\components\publications\PublicationList.tsx
+- Long line (286 chars) at line 45: src\components\publications\PublicationsToolbar.tsx
+- Long line (152 chars) at line 58: src\components\publications\PublicationsToolbar.tsx
+- Long line (199 chars) at line 90: src\components\publications\PublicationsToolbar.tsx
+- Long line (145 chars) at line 60: src\components\team\TeamCard.tsx
+- Long line (157 chars) at line 63: src\components\team\TeamCard.tsx
+- Long line (135 chars) at line 80: src\components\team\TeamCard.tsx
+- Long line (169 chars) at line 113: src\components\team\TeamCard.tsx
+- Long line (170 chars) at line 122: src\components\team\TeamCard.tsx
+- Long line (512 chars) at line 128: src\components\team\TeamCard.tsx
+- Long line (171 chars) at line 136: src\components\team\TeamCard.tsx
+- Long line (790 chars) at line 142: src\components\team\TeamCard.tsx
+- Long line (211 chars) at line 42: src\components\ui\BackToTop.tsx
+- Long line (195 chars) at line 43: src\components\ui\PageLoader.tsx
+- Long line (147 chars) at line 76: src\components\ui\PageLoader.tsx
+- Long line (127 chars) at line 86: src\components\ui\PageLoader.tsx
+- Long line (133 chars) at line 45: src\components\ui\ProjectGallery.tsx
+- Long line (181 chars) at line 54: src\components\ui\ProjectGallery.tsx
+- Long line (156 chars) at line 58: src\components\ui\ProjectGallery.tsx
+- Long line (157 chars) at line 15: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (139 chars) at line 22: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (131 chars) at line 27: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (126 chars) at line 37: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (130 chars) at line 42: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (164 chars) at line 59: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (126 chars) at line 68: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (124 chars) at line 69: src\components\ultraclear\ClinicalNeedSection.tsx
+- Long line (281 chars) at line 21: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (140 chars) at line 25: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (212 chars) at line 41: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (260 chars) at line 51: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (129 chars) at line 55: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (220 chars) at line 61: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (127 chars) at line 65: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (275 chars) at line 71: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (121 chars) at line 75: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (169 chars) at line 97: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (187 chars) at line 100: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (142 chars) at line 107: src\components\ultraclear\CoreFeaturesGrid.tsx
+- Long line (155 chars) at line 73: src\components\ultraclear\GalleryGrid.tsx
+- Long line (418 chars) at line 32: src\components\ultraclear\HeroOverview.tsx
+- Long line (136 chars) at line 59: src\components\ultraclear\HeroOverview.tsx
+- Long line (346 chars) at line 23: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (216 chars) at line 32: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (208 chars) at line 41: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (127 chars) at line 50: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (128 chars) at line 71: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (142 chars) at line 88: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (173 chars) at line 99: src\components\ultraclear\IntegratedApproachBanner.tsx
+- Long line (146 chars) at line 19: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (150 chars) at line 20: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (138 chars) at line 21: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (136 chars) at line 22: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (139 chars) at line 23: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (142 chars) at line 24: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (151 chars) at line 44: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (151 chars) at line 62: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (297 chars) at line 64: src\components\ultraclear\ResearchObjectivesList.tsx
+- Long line (136 chars) at line 30: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (139 chars) at line 37: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (130 chars) at line 44: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (131 chars) at line 51: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (133 chars) at line 58: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (133 chars) at line 65: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (129 chars) at line 115: src\components\ultraclear\VerticalTimeline.tsx
+- Long line (147 chars) at line 72: src\components\vibronav\GalleryMasonry.tsx
+- Long line (291 chars) at line 13: src\components\vibronav\KeyFeatures.tsx
+- Long line (126 chars) at line 17: src\components\vibronav\KeyFeatures.tsx
+- Long line (145 chars) at line 26: src\components\vibronav\KeyFeatures.tsx
+- Long line (265 chars) at line 31: src\components\vibronav\KeyFeatures.tsx
+- Long line (273 chars) at line 40: src\components\vibronav\KeyFeatures.tsx
+- Long line (145 chars) at line 44: src\components\vibronav\KeyFeatures.tsx
+- Long line (122 chars) at line 70: src\components\vibronav\KeyFeatures.tsx
+- Long line (409 chars) at line 22: src\components\vibronav\ProjectIntro.tsx
+- Long line (121 chars) at line 37: src\components\vibronav\ProjectIntro.tsx
+- Long line (137 chars) at line 41: src\components\vibronav\ProjectIntro.tsx
+- Long line (136 chars) at line 48: src\components\vibronav\ProjectIntro.tsx
+- Long line (129 chars) at line 108: src\components\vibronav\VerticalTimeline.tsx
+- Long line (259 chars) at line 17: src\config\site.ts
+- Long line (555 chars) at line 19: src\config\site.ts
+- Hardcoded URL found: https://oguzhanberkeozdil.github.io/vibronav-ultraclear-website in src\config\site.ts
+- Long line (136 chars) at line 43: src\data\projects.ts
+- Long line (388 chars) at line 44: src\data\projects.ts
+- Long line (134 chars) at line 105: src\data\projects.ts
+- Long line (354 chars) at line 106: src\data\projects.ts
+- Long line (245 chars) at line 161: src\data\projects.ts
+- Hardcoded URL found: https://schema.org in src\lib\seo.ts
+- Long line (169 chars) at line 20: src\pages\Contact.tsx
+- Long line (139 chars) at line 76: src\pages\Contact.tsx
+- Long line (332 chars) at line 31: src\pages\Home.tsx
+- Long line (682 chars) at line 32: src\pages\Home.tsx
+- Long line (139 chars) at line 64: src\pages\Home.tsx
+- Long line (190 chars) at line 67: src\pages\Home.tsx
+- Long line (226 chars) at line 68: src\pages\Home.tsx
+- Long line (122 chars) at line 85: src\pages\Home.tsx
+- Long line (144 chars) at line 87: src\pages\Home.tsx
+- Long line (133 chars) at line 96: src\pages\Home.tsx
+- Long line (135 chars) at line 105: src\pages\Home.tsx
+- Long line (125 chars) at line 123: src\pages\Home.tsx
+- Hardcoded URL found: https://schema.org in src\pages\Home.tsx
+- Hardcoded URL found: https://www.agh.edu.pl/ in src\pages\Home.tsx
+- Hardcoded URL found: https://github.com/oguzhanberkeozdil in src\pages\Home.tsx
+- Hardcoded URL found: https://www.linkedin.com/in/oguzhanberkeozdil/ in src\pages\Home.tsx
+- Long line (150 chars) at line 20: src\pages\Opportunities.tsx
+- Long line (147 chars) at line 21: src\pages\Opportunities.tsx
+- Long line (169 chars) at line 20: src\pages\Publications.tsx
+- Long line (155 chars) at line 21: src\pages\Publications.tsx
+- Long line (136 chars) at line 143: src\pages\Publications.tsx
+- Long line (133 chars) at line 211: src\pages\Publications.tsx
+- Long line (135 chars) at line 231: src\pages\Publications.tsx
+- Long line (135 chars) at line 240: src\pages\Publications.tsx
+- Long line (133 chars) at line 256: src\pages\Publications.tsx
+- Long line (173 chars) at line 272: src\pages\Publications.tsx
+- Long line (248 chars) at line 21: src\pages\Team.tsx
+- Long line (305 chars) at line 22: src\pages\Team.tsx
+- Long line (121 chars) at line 112: src\pages\Team.tsx
+- Long line (125 chars) at line 120: src\pages\Team.tsx
+- Long line (124 chars) at line 153: src\pages\Team.tsx
+- Long line (151 chars) at line 159: src\pages\Team.tsx
+- Long line (268 chars) at line 23: src\pages\UltraClear.tsx
+- Long line (374 chars) at line 24: src\pages\UltraClear.tsx
+- Long line (235 chars) at line 40: src\pages\UltraClear.tsx
+- Long line (190 chars) at line 43: src\pages\UltraClear.tsx
+- Hardcoded URL found: https://schema.org in src\pages\UltraClear.tsx
+- Hardcoded URL found: https://www.agh.edu.pl/ in src\pages\UltraClear.tsx
+- Long line (259 chars) at line 19: src\pages\VibroNav.tsx
+- Long line (457 chars) at line 20: src\pages\VibroNav.tsx
+- Long line (154 chars) at line 59: src\pages\VibroNav.tsx
+- Long line (192 chars) at line 79: src\pages\VibroNav.tsx
+- Hardcoded URL found: https://schema.org in src\pages\VibroNav.tsx
+- Hardcoded URL found: https://www.dfg.de/ in src\pages\VibroNav.tsx
+- Hardcoded URL found: https://www.ncn.gov.pl/ in src\pages\VibroNav.tsx
+- Hardcoded URL found: https://www.agh.edu.pl/ in src\pages\VibroNav.tsx
+- Long line (256 chars) at line 150: src\styles\globals.css
+- Long line (264 chars) at line 154: src\styles\globals.css
+- Long line (309 chars) at line 158: src\styles\globals.css
+- Long line (205 chars) at line 189: src\styles\globals.css
+- Hardcoded URL found: https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap in src\styles\globals.css
+- Long line (485 chars) at line 63: src\utils\security-headers.ts
+- Long line (479 chars) at line 120: src\utils\security-headers.ts
+- Long line (502 chars) at line 146: src\utils\security-headers.ts
+- Long line (503 chars) at line 164: src\utils\security-headers.ts
+- Hardcoded URL found: https://www.googletagmanager.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.googleapis.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.gstatic.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google-analytics.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.googletagmanager.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.gstatic.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google-analytics.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.googletagmanager.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.gstatic.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google-analytics.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.googletagmanager.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.gstatic.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google-analytics.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.googletagmanager.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.googleapis.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://fonts.gstatic.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google-analytics.com; in src\utils\security-headers.ts
+- Hardcoded URL found: https://www.google.com in src\utils\security-headers.ts
+- Hardcoded URL found: https://maps.googleapis.com; in src\utils\security-headers.ts
+- Missing standardized header: tailwind.config.js
+- Missing standardized header: vite.config.ts
+
+## Recommendations
+
+- **tooling:** Implement pre-commit hooks for code quality
+- **testing:** Add automated testing with coverage reports
+- **deployment:** Set up continuous integration with GitHub Actions
+- **security:** Configure security headers for production deployment
+- **performance:** Add performance monitoring and analytics
+- **enhancement:** Implement Progressive Web App features
+
+## Next Steps
+
+1. Address high severity issues first
+2. Review and implement medium severity fixes
+3. Consider low severity improvements for code quality
+4. Re-run audit after fixes to track progress
