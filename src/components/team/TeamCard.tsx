@@ -48,7 +48,6 @@ const TeamCard: React.FC<TeamCardProps> = ({
       "Katharina Steeg, PhD student": buildAssetUrl("assets/images/team_page/Katharina Steeg.jpeg"),
       "Oğuzhan Berke Özdil": buildAssetUrl("assets/images/team_page/OguzhanBerkeOzdil.png"),
       "Hamza Oran": buildAssetUrl("assets/images/team_page/Hamza Oran.jpg"),
-      "Witold Serwatka": buildAssetUrl("assets/images/team_page/Witold Serwatka.jpg"),
       "Juliusz Stefański": null // No image available
     };
     return imageMap[name] || null;

@@ -286,44 +286,6 @@
       "joinDate": "2024-01-01"
     },
     {
-      "id": "witold-serwatka",
-      "name": "Witold Serwatka",
-      "role": "ML Engineer",
-      "title": "Engineer",
-      "department": "Department of Measurement and Electronics",
-      "institution": "AGH University of Science and Technology",
-      "bio": "Witold Serwatka is an AI Engineer and Deep Learning Enthusiast with experience in Software Development and Cloud Services. He has developed automation tools in Python, CI/CD pipelines in Jenkins, and AI models in scikit-learn and PyTorch. Witold is also active in the research domain, publishing papers related to his work on the intersection of AI and medicine.",
-      "expertise": [
-        "AI/ML",
-        "Python",
-        "PyTorch",
-        "CI/CD",
-        "Cloud services"
-      ],
-      "contact": {
-        "email": "#",
-        "phone": null,
-        "office": null
-      },
-      "links": {
-        "linkedin": "#",
-        "researchgate": null,
-        "orcid": null,
-        "website": null
-      },
-      "assets": {
-        "photo": "/assets/images/team_page/Witold Serwatka.jpg",
-        "cv": null
-      },
-      "projects": [
-        "vibronav"
-      ],
-      "publications": [],
-      "education": [],
-      "status": "active",
-      "joinDate": "2023-06-01"
-    },
-    {
       "id": "juliusz-stefanski",
       "name": "Juliusz Stefański",
       "role": "Signal Processing Supervisor",

@@ -16,6 +16,8 @@ import VerticalTimeline from '../components/ultraclear/VerticalTimeline';
 import ResearchObjectivesList from '../components/ultraclear/ResearchObjectivesList';
 import GalleryGrid from '../components/ultraclear/GalleryGrid';
 import IntegratedApproachBanner from '../components/ultraclear/IntegratedApproachBanner';
+import VideoSection from '../components/shared/VideoSection';
+import { buildAssetUrl } from '../config/site';
 
 const UltraClear: React.FC = () => {
   const seoData = generateSEOData({
@@ -99,6 +101,21 @@ const UltraClear: React.FC = () => {
         <VerticalTimeline />
         <ResearchObjectivesList />
         <GalleryGrid />
+        
+        {/* Video Section */}
+        <VideoSection 
+          title="UltraClear Project Video"
+          videos={[
+            {
+              id: 'ultraclear-main',
+              title: 'UltraClear Hybrid Imaging Technology',
+              description: 'Demonstration of UltraClear hybrid imaging device combining ultrasound and gamma detection for enhanced medical imaging.',
+              videoUrl: buildAssetUrl('/assets/videos/ultraclear/video_1.mp4'),
+              isLocal: true,
+            },
+          ]}
+        />
+        
         <IntegratedApproachBanner />
       </div>
     </>

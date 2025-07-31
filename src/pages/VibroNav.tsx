@@ -12,6 +12,8 @@ import ProjectIntro from '../components/vibronav/ProjectIntro';
 import KeyFeatures from '../components/vibronav/KeyFeatures';
 import VerticalTimeline from '../components/vibronav/VerticalTimeline';
 import GalleryMasonry from '../components/vibronav/GalleryMasonry';
+import VideoSection from '../components/shared/VideoSection';
+import { buildAssetUrl } from '../config/site';
 
 const VibroNav: React.FC = () => {
   const seoData = generateSEOData({
@@ -100,6 +102,20 @@ const VibroNav: React.FC = () => {
         
         {/* Gallery */}
         <GalleryMasonry />
+        
+        {/* Video Section */}
+        <VideoSection 
+          title="VibroNav Project Video"
+          videos={[
+            {
+              id: 'vibronav-main',
+              title: 'VibroNav Audio-Tactile Navigation System',
+              description: 'Comprehensive demonstration of the VibroNav system for enhanced surgical precision in minimally invasive procedures.',
+              videoUrl: buildAssetUrl('/assets/videos/vibronav/video_1.mp4'),
+              isLocal: true,
+            },
+          ]}
+        />
       </div>
     </>
   );

@@ -100,4 +100,11 @@ scripts/ultraclear-build.mjs
 scripts/vibronav-build.mjs
 scripts/opportunities-to-json.mjs
 
+# general reports
+audit-report.json
+SEO-ANALYSIS-REPORT.md
+COMPLETED-AUDIT-SUMMARY.md
+GITHUB-DEPLOYMENT-GUIDE.md
+CHANGELOG.md
+
 # Keep essential scripts: prebuild.mjs, generate-sitemap.mjs, parse-bib.mjs, blog-build.mjs
