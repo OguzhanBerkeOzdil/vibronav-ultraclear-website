@@ -36,31 +36,45 @@ const UltraClear: React.FC = () => {
 
   const jsonLdSchema = {
     "@context": "https://schema.org",
-    "@type": "ResearchProject",
+    "@type": "Article",
+    "headline": "UltraClear - Revolutionary Hybrid Medical Imaging Technology",
     "name": "UltraClear",
     "alternateName": ["Ultraclear", "UltraClear Project", "Hybrid Medical Imaging System"],
     "description": "Revolutionary hybrid imaging device combining ultrasound and gamma detection for enhanced sentinel lymph node visualization during surgical procedures. Developed at AGH University for improved surgical precision.",
     "url": seoData.canonical,
     "image": seoData.openGraph.image,
-    "keywords": ["UltraClear", "hybrid medical imaging", "ultrasound technology", "gamma detection", "medical devices", "surgical imaging", "sentinel lymph node", "biomedical engineering"],
-    "about": {
-      "@type": "MedicalProcedure",
-      "name": "Sentinel Lymph Node Biopsy",
-      "description": "Surgical procedure enhanced by hybrid imaging technology"
-    },
-    "creator": {
+    "author": {
       "@type": "Organization",
       "name": "AGH University of Science and Technology",
       "url": "https://www.agh.edu.pl/"
     },
-    "sponsor": {
+    "publisher": {
       "@type": "Organization",
-      "name": "HealthTech Innovation Lab"
+      "name": "AGH University of Science and Technology",
+      "url": "https://www.agh.edu.pl/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://oguzhanberkeozdil.github.io/vibronav-ultraclear-website/assets/images/logo.png"
+      }
     },
-    "applicationCategory": "Medical Device",
-    "operatingSystem": "Hybrid Imaging Systems",
-    "startDate": "2023",
-    "status": "Active Development"
+    "datePublished": "2024-01-01",
+    "dateModified": "2025-07-31",
+    "articleSection": "Research Projects",
+    "keywords": ["UltraClear", "hybrid medical imaging", "ultrasound technology", "gamma detection", "medical devices", "surgical imaging", "sentinel lymph node", "biomedical engineering"],
+    "about": [
+      {
+        "@type": "ResearchProject",
+        "name": "UltraClear",
+        "sponsor": {
+          "@type": "Organization",
+          "name": "HealthTech Innovation Lab @ AGH University"
+        },
+        "applicationCategory": "Medical Device",
+        "operatingSystem": "Hybrid Imaging Systems",
+        "startDate": "2023",
+        "status": "Active Development"
+      }
+    ]
   };
 
   return (

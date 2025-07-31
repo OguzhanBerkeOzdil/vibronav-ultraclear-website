@@ -55,32 +55,51 @@ const VibroNav: React.FC = () => {
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "ResearchProject",
+            "@type": "Article",
+            "headline": "VibroNav - Revolutionary Audio-Tactile Navigation for Medical Procedures",
             "name": "VibroNav",
             "alternateName": ["Vibronav", "VibroNav Project", "Audio-Tactile Navigation System"],
             "description": "Revolutionary audio-tactile navigation system for needle-based minimally invasive medical procedures, funded by DFG and NCN",
             "url": seoData.canonical,
             "image": seoData.openGraph.image,
-            "fundingSource": [
-              {
-                "@type": "Organization",
-                "name": "Deutsche Forschungsgemeinschaft (DFG)",
-                "url": "https://www.dfg.de/"
-              },
-              {
-                "@type": "Organization", 
-                "name": "National Science Centre Poland (NCN)",
-                "url": "https://www.ncn.gov.pl/"
-              }
-            ],
-            "creator": {
+            "author": {
               "@type": "Organization",
               "name": "AGH University of Science and Technology",
               "url": "https://www.agh.edu.pl/"
             },
+            "publisher": {
+              "@type": "Organization",
+              "name": "AGH University of Science and Technology",
+              "url": "https://www.agh.edu.pl/",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://oguzhanberkeozdil.github.io/vibronav-ultraclear-website/assets/images/logo.png"
+              }
+            },
+            "datePublished": "2024-01-01",
+            "dateModified": "2025-07-31",
+            "articleSection": "Research Projects",
             "keywords": ["VibroNav", "vibroacoustic navigation", "medical navigation", "needle guidance", "minimally invasive procedures", "audio-tactile feedback", "biomedical engineering"],
-            "applicationCategory": "Medical Device",
-            "operatingSystem": "Real-time DSP Systems"
+            "about": [
+              {
+                "@type": "ResearchProject",
+                "name": "VibroNav",
+                "fundingSource": [
+                  {
+                    "@type": "Organization",
+                    "name": "Deutsche Forschungsgemeinschaft (DFG)",
+                    "url": "https://www.dfg.de/"
+                  },
+                  {
+                    "@type": "Organization", 
+                    "name": "National Science Centre Poland (NCN) - OPUS-LAP",
+                    "url": "https://www.ncn.gov.pl/"
+                  }
+                ],
+                "applicationCategory": "Medical Device",
+                "operatingSystem": "Real-time DSP Systems"
+              }
+            ]
           })}
         </script>
       </Helmet>
