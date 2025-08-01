@@ -164,6 +164,10 @@ const App: React.FC = () => {
               <Route path="/projects/vibronav" element={<VibroNav />} />
               <Route path="/projects/ultraclear" element={<UltraClear />} />
               
+              {/* Redirect old paths to new paths */}
+              <Route path="/vibronav" element={<VibroNav />} />
+              <Route path="/ultraclear" element={<UltraClear />} />
+              
               {/* Policy pages */}
               <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
               <Route path="/terms-of-use" element={<TermsPage />} />
