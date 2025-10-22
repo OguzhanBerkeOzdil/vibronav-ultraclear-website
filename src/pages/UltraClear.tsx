@@ -122,7 +122,7 @@ const UltraClear: React.FC = () => {
           videos={[
             {
               id: 'ultraclear-main',
-              title: 'UltraClear Hybrid Imaging Technology',
+              title: 'UltraClear Test Drive',
               description: 'Demonstration of UltraClear hybrid imaging device combining ultrasound and gamma detection for enhanced medical imaging.',
               videoUrl: buildAssetUrl('/assets/videos/ultraclear/video_1.mp4'),
               isLocal: true,

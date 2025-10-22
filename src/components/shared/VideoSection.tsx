@@ -42,8 +42,10 @@ const VideoSection: React.FC<VideoSectionProps> = ({
     videoElement.preload = 'metadata';
 
     videoElement.addEventListener('loadedmetadata', () => {
-      // Generate thumbnail from video frame (middle of video)
-      videoElement.currentTime = videoElement.duration / 2;
+      // Generate thumbnail from around 1 second into the video (safe for short videos)
+      // Use 1.0s unless the video is shorter; clamp to duration - 0.1s to avoid seeking past end
+      const targetTime = Math.min(1.0, Math.max(0, videoElement.duration - 0.1));
+      videoElement.currentTime = targetTime;
     });
 
     videoElement.addEventListener('seeked', () => {

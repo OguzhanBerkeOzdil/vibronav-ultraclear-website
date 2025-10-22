@@ -113,6 +113,20 @@ const VibroNav: React.FC = () => {
         {/* Project Introduction */}
         <ProjectIntro />
         
+        {/* Intro Video - Start Here */}
+        <VideoSection 
+          title="Start here with VibroNav"
+          videos={[
+            {
+              id: 'vibronav-intro',
+              title: 'Start here with VibroNav',
+              description: 'Introduction to the VibroNav system and its key features for medical navigation.',
+              videoUrl: buildAssetUrl('/assets/videos/vibronav/VIBRONAV_Video.mp4'),
+              isLocal: true,
+            },
+          ]}
+        />
+        
         {/* Key Features */}
         <KeyFeatures />
         
@@ -122,13 +136,13 @@ const VibroNav: React.FC = () => {
         {/* Gallery */}
         <GalleryMasonry />
         
-        {/* Video Section */}
+        {/* Test Drive Video */}
         <VideoSection 
-          title="VibroNav Project Video"
+          title="VibroNav Test Drive"
           videos={[
             {
               id: 'vibronav-main',
-              title: 'VibroNav Audio-Tactile Navigation System',
+              title: 'VibroNav Test Drive',
               description: 'Comprehensive demonstration of the VibroNav system for enhanced surgical precision in minimally invasive procedures.',
               videoUrl: buildAssetUrl('/assets/videos/vibronav/video_1.mp4'),
               isLocal: true,

@@ -84,7 +84,12 @@ const SEOMeta: React.FC = () => (
         "@type": "Organization",
         "name": SITE_CONFIG.author,
         "url": buildUrl(),
-        "logo": buildUrl('/assets/images/logo.png'),
+        "logo": {
+          "@type": "ImageObject",
+          "url": buildUrl('/assets/images/logo.png'),
+          "width": 512,
+          "height": 512
+        },
         "description": SITE_CONFIG.description,
         "address": {
           "@type": "PostalAddress",
@@ -102,6 +107,26 @@ const SEOMeta: React.FC = () => (
           "https://www.agh.edu.pl/",
           "https://github.com/healthtech-innovation-agh"
         ]
+      })}
+    </script>
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "VibroNav & UltraClear Research",
+        "alternateName": ["VibroNav", "UltraClear", "HealthTech Innovation Lab"],
+        "url": buildUrl(),
+        "description": SITE_CONFIG.description,
+        "publisher": {
+          "@type": "Organization",
+          "name": SITE_CONFIG.author,
+          "logo": {
+            "@type": "ImageObject",
+            "url": buildUrl('/assets/images/logo.png'),
+            "width": 512,
+            "height": 512
+          }
+        }
       })}
     </script>
   </Helmet>

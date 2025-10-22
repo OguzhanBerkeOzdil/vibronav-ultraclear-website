@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               />
             </div>
             <p className="text-gray-300 mb-6 max-w-2xl mx-auto px-4">
-              AGH‑led research alliance develops VibroNav and UltraClear—transforming acoustic signals into precise surgical guidance and crystal‑clear ultrasound imaging.
+              AGH‑led research alliance develops VibroNav and UltraClear transforming acoustic signals into precise surgical guidance and crystal‑clear ultrasound imaging.
             </p>
           </div>
 
